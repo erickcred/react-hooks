@@ -1,0 +1,14 @@
+.Content {
+    display: flex;
+    flex-grow: 1;
+    background-color: #ececec;
+    padding: 30px;
+    width: calc((100% - 250px) - 10px);
+    overflow-y: scroll;
+}
+
+.Content > * {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
